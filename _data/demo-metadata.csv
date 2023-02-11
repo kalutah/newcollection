@@ -1,6 +1,6 @@
-objectid;filename;youtubeid;title;creator;date;description;subject;location;latitude;longitude;source;identifier;type;format;language;rights;rightsstatement
-demo_001;demo_001.jpg;;Afiche I Seminario Internacional Historias de lo político Imaginando repúblicas en tiempos de independencia;;2019;;Historia;Bogotá, Colombia;4.635.972;-74.084.750;;;"Image;StillImage";image/jpeg;es;;
-demo_002;demo_002.pdf;;Afiche II Seminario Internacional Historias de lo político De república a nación 1854 - 1905;;2020;;Historia;Virtual;;;;;"Image;StillImage";image/jpeg;es;;
-demo_003;demo_003.mp3;;Afiche III Seminario Internacional Historias de lo político Las tramas de la nación 1903 -1952;;2021;;Historia;Virtual;;;;;"Image;StillImage";image/jpeg;es;;
-demo_004;;;Afiche IV Seminario Internacional Historias de lo político Ilusiones nacionales y disputas por el orden 1953 - 1990;;2023;;Historia;Virtual;;;;;"Image;StillImage";image/jpeg;es;;
-demo_005;;;;;;;;;;;;;"Image;StillImage";image/jpeg;es;;
+objectid,filename,youtubeid,title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement
+demo_001,demo_001.jpg,,Afiche I Seminario Internacional Historias de lo polÃ­tico Imaginando repÃºblicas en tiempos de independencia,,2019,,Historia,BogotÃ¡ Colombia,4.635.972,-74.084.750,,,"Image;StillImage",image/jpeg,es,,
+demo_002,demo_002.pdf,,Afiche II Seminario Internacional Historias de lo polÃ­tico De repÃºblica a naciÃ³n 1854 - 1905,,2020,,Historia,Virtual,,,,,"Image;StillImage",image/jpeg,es,,
+demo_003,demo_003.mp3,,Afiche III Seminario Internacional Historias de lo polÃ­tico Las tramas de la naciÃ³n 1903 -1952,,2021,,Historia,Virtual,,,,,"Image;StillImage",image/jpeg,es,,
+demo_004,,,Afiche IV Seminario Internacional Historias de lo polÃ­tico Ilusiones nacionales y disputas por el orden 1953 - 1990,,2023,,Historia,Virtual,,,,,"Image;StillImage",image/jpeg,es,,
+demo_005,,,,,,,,,,,,,"Image;StillImage",image/jpeg,es,,
