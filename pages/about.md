@@ -21,7 +21,7 @@ Este sitio es generado usando [CollectionBuilder-GH](https://collectionbuilding.
 
 La plantilla del repositorio presenta cuatro objetos de la University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
 
-PAra detalles completos de como crear su propio sitio para colecciones, visite [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+Para detalles completos de como crear su propio sitio para colecciones, visite [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
 {% include cb/about_the_about.md %} 
