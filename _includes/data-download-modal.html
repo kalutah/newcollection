@@ -6,13 +6,13 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Download Data</button>
+<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Descargar datos</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="dataModalLabel">Collection Data</h5>
+                <h5 class="modal-title" id="dataModalLabel">Colección de datos</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -22,8 +22,8 @@
                 {% if site.data.theme.metadata-export-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Complete Metadata</h5>
-                        <p class="card-text">All metadata fields for all collection items, available as a CSV spreadsheet (usable in Excel, Google Sheets, and similar programs) or JSON file (often used with web applications).</p>
+                        <h5 class="card-title">Metadatos completosa</h5>
+                        <p class="card-text">Todos los campos de metadatos de la colección están disponibles en formato CSV o JSON.</p>
                         <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata CSV</a>
                         <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata JSON</a>
                     </div>
@@ -51,7 +51,7 @@
                 {% if stubs contains "location" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Locations</h5>
+                        <h5 class="card-title">Localizciones</h5>
                         <p class="card-text">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
                         <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations CSV</a>
                         <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations JSON</a>
@@ -70,7 +70,7 @@
                 {% if stubs contains "timeline" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Timeline</h5>
+                        <h5 class="card-title">Línea de tiempo</h5>
                         <p class="card-text">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener">TimelineJS</a>.</p>
                         <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
                     </div>
